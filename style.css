@@ -55,3 +55,14 @@ margin: auto;
     position: relative;
     bottom: 600px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .data {
+        border: 2px solid red;
+        width: 300px;
+        padding: 10px;
+        position: relative;
+        bottom: -27px;
+    }
+  }
